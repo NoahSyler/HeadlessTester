@@ -5,8 +5,8 @@ headless_tester.py was designed for a specific use case; however, it could easil
 ## Quick Description
 When the program is run, the main function is called.  
 The “toggles“ dictionary contains many settings. A better way to do this would be to move away from this program being only functions, and add a layer of abstraction.  
-    - The toggles dictionary would represent the attributes of the object, and they would have their own getters and setters  
-    - They would have default values, so that not every attribute would need to be set.  
+- The toggles dictionary would represent the attributes of the object, and they would have their own getters and setters  
+- They would have default values, so that not every attribute would need to be set.  
 The driver is instantiated, then the login function is called.  
     - A try except block should be used here  
 The driver is then passed to test_all_links(). This returns the failed urls.  
